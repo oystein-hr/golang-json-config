@@ -8,8 +8,8 @@ import (
 )
 
 // Config is ...
+// Første kommentar over struct definisjon må se ut som den gjør ovenfor, og må være tilstede.
 // Struct må være tilpasset for innholdet i JSON filen. Viktig å bruke riktig tick (`) type.
-// Første kommentar over struct definisjon må se ut som den gjør ovenfor.
 // Navnene i struct på starte med stor bokstav.
 type Config struct {
 	Token string `json:"token"`
